@@ -20,7 +20,7 @@ This Python script allows you to check a list of IP addresses using the vpnapi.i
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Dan-Duran-/vpn-checker-vpnip.git
+    git clone https://github.com/Dan-Duran/vpn-checker-vpnip.git
     cd vpn-api-ip-checker
     ```
 
