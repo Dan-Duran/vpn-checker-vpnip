@@ -12,7 +12,7 @@ This Python script allows you to check a list of IP addresses using the vpnapi.i
 
 ## Prerequisites
 
-- Python 3.12 or later.
+- Python 3.6 or later.
 - An API key from [vpnapi.io](https://vpnapi.io/).
 
 ## Installation
@@ -75,9 +75,45 @@ This Python script allows you to check a list of IP addresses using the vpnapi.i
 ## File Structure
 
 ```plaintext
-vpn-api-ip-checker/
+vpn-checker-vpnip/
 ├── input.txt
 ├── output/
 │   └── vpn-check-YYYY-MM-DD_HH-MM-SS.txt
 ├── vpn.py
 └── README.md
+```
+## Parameters Explained
+
+### Security
+- **VPN**: Determines if IP address is a VPN.
+- **Proxy**: Determines if IP address is a Proxy.
+- **Tor**: Determines if IP address is a Tor Node.
+- **Relay**: Determines if IP address is a Relay (e.g., iCloud Private Relay).
+
+### Location
+- **City**: Displays the approximate city of the IP address location.
+- **Region**: Displays the approximate region or state of the IP address location.
+- **Country**: Displays the approximate country of the IP address location.
+- **Continent**: Displays the approximate continent of the IP address location.
+- **Region Code**: Displays the IP address ISO 3166-1 country code.
+- **Country Code**: Displays the IP address region/state code.
+- **Continent Code**: Displays the IP address continent code.
+- **Latitude**: Displays the latitude of the IP address.
+- **Longitude**: Displays the longitude of the IP address.
+- **Time Zone**: Displays the approximate time zone of the IP address.
+- **Locale Code**: Determines the regional language based on the IP address location.
+- **Metro Code**: Displays the metro code based on the IP address location (for US IP addresses).
+- **Is In European Union**: Determines if the IP address is located within the European Union.
+
+### Network
+- **Network**: Displays which network the IP address belongs to.
+- **Autonomous System Number (ASN)**: Displays the autonomous system number of the network.
+- **Autonomous System Organization (ASO)**: Displays the organization that manages the network.
+
+### Contributing
+Contributions are welcome! Please submit a pull request with any improvements or additions.
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
