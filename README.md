@@ -2,6 +2,10 @@
 
 This Python script allows you to check a list of IP addresses using the vpnapi.io API. The script fetches detailed information about each IP address, including security information, location, and network details.
 
+- **👉 Checkout some more awesome tools at [GetCyber](https://getcyber.me/tools)**
+- **👉 Subscribe to my YouTube Channel [GetCyber - YouTube](https://youtube.com/getCyber)**
+- **👉 Discord Server [GetCyber - Discord](https://discord.gg/YUf3VpDeNH)**
+  
 ## Features
 
 - Fetches detailed information about IP addresses from vpnapi.io.
